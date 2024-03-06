@@ -4,8 +4,8 @@ cf_id INT PK
 contact_id INT FK - contacts.contact_id
 company_name VARCHAR(255)
 descripton VARCHAR(255)
-goal INT
-pledged INT
+goal DECIMAL
+pledged DECIMAL
 outcome VARCHAR(255)
 backers_count INT
 country VARCHAR(2)
